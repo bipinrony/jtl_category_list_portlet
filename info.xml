@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jtlshopplugin>
+    <Name>Category List</Name>
+    <Description>Make Category list.</Description>
+    <Author>Codbos software private limited</Author>
+    <URL>https://codbos.com/</URL>
+    <PluginID>cb_category_list</PluginID>
+    <XMLVersion>100</XMLVersion>
+    <MinShopVersion>5.0.0</MinShopVersion>
+    <Icon></Icon>
+    <Version>1.0.0</Version>
+    <CreateDate>2024-06-18</CreateDate>
+    <Install>
+        <Portlets>
+            <Portlet>
+                <Title>Category List</Title>
+                <Class>CategoryList</Class>
+                <Group>content</Group>
+                <Active>1</Active>
+            </Portlet>
+        </Portlets>
+
+    </Install>
+</jtlshopplugin>
